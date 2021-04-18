@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shurtcut icon" type="image/jpg" href="img/cas-favicon.jpg">
+  <link rel="stylesheet" href="style.css">
+  <title>Swipe and Slide</title>
+</head>
+
+<body>
+
+
+<div class="wrap">
+    <div class="swipe">
+        <ul id="slider4">
+            <li style="display:block"><img src="pictures/front-1.png" alt=""></li>
+            <li><img src="pictures/mid-1.png" alt=""></li>
+            <li><img src="pictures/back-1.png" alt=""></li>
+            <li><img src="pictures/front-1.png" alt=""></li>
+        </ul>
+    </div>
+    <br>
+    <div id="pagenavi">
+        <a href="#" class="active"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+    <br>
+    <button class="btn btn-primary" onclick="t4.pause();">Pause</button>
+    <button class="btn btn-primary" onclick="t4.play();">Play</button>
+    <button class="btn btn-primary" onclick="t4.prev();">Previous</button>
+    <button class="btn btn-primary" onclick="t4.next();">Next</button>
+</div>
+
+
+  <script src="app.js" defer></script>
+</body>
+</html>
